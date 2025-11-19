@@ -1,6 +1,6 @@
 // controllers/CabuyController.js
 const Cabuy = require("../models/Cabuy");
-const Member = require("../models/Member");
+
 
 // allowed status enum (sesuaikan dengan model)
 const ALLOWED_STATUS = ["Baru", "Follow Up", "Closing", "Lost"];

@@ -49,7 +49,7 @@ const Cabuy = sequelize.define(
 );
 
 Member.hasMany(Cabuy, { foreignKey: "id_member" });
-Cabuy.belongsTo(Member, { foreignKey: "id_member" });
+
 
 
 module.exports = Cabuy;
